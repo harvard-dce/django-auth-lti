@@ -3,7 +3,7 @@ from django.contrib.auth.backends import ModelBackend
 from django.core.exceptions import PermissionDenied, ImproperlyConfigured
 from django.utils.module_loading import import_string
 
-from ims_lti_py.contrib.django import DjangoToolProvider
+from dce_lti_py.contrib.django import DjangoToolProvider
 from time import time
 import logging
 

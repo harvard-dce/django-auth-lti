@@ -31,7 +31,7 @@ setup(
     ],
     install_requires=[
         "Django>=1.6",
-        "ims-lti-py",
+        "dce_lti_py==0.7.1",
         "django-braces==1.3.1",
     ],
     tests_require=[
